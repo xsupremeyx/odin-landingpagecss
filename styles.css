@@ -1,0 +1,171 @@
+body{
+    font-family: "Roboto";
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer{
+    background-color: #1F2937;
+}
+
+.heading1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.heading2{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.text1,
+.header-links,
+.lower-header-image
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.lower-header-image{
+    background-color: gray;
+}
+
+.text{
+    font-size: 18px;
+    color: #6B7280;
+}  
+
+
+button,
+.popup{
+    background-color: #3882F6;
+}
+
+button{
+    padding: 5px 10px;
+    cursor: pointer;                
+    transition: background-color 0.2s ease;
+    border-radius: 8px;
+    border: none;
+}
+
+.popupbutton{
+    border: 2px solid white;
+    padding: 5px 10px;
+    cursor: pointer;                
+    transition: background-color 0.2s ease;
+    border-radius: 8px;
+}
+
+button::active,
+.popupbutton::active{
+    background-color: darkblue;       
+}
+
+.contentheader{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.imgbox{
+    border: 2px solid blue;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+
+}
+
+.quotetext{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.writer{
+    font-size: 18px;
+    font-weight: 900;
+    color: black;
+}
+
+.popupheading{
+    color: white;
+    font-size: 24px;
+}
+
+.popuptext{
+    color: #E5E7EB;
+    font-size: 18px;;
+}
+
+.footer-text{
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 150px 50px;
+    gap: 50px;
+}
+
+.upper-header{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    height: 30px;
+}
+
+.header-links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.lower-header{
+    display: flex;
+    flex: 1;
+
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.sidebar{
+    max-width: 500px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.footer{
+    display: flex;
+    flex: 1;
+}
