@@ -225,6 +225,7 @@ button::active,
 
 .quote-content{
     width: 50%;
+    flex: 1;
 }
 
 .quotetext{
