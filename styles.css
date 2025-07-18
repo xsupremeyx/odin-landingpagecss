@@ -214,6 +214,31 @@ button::active,
     text-align: center;
 }
 
+.quote{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.quote-content{
+    width: 50%;
+}
+
+.quotetext{
+    flex: 1;
+}
+
+.writer{
+    width: 50%;
+    display: flex;
+    flex: 1;
+    align-self: flex-end;
+    text-align: right;
+}
+
 .footer{
     display: flex;
     flex: 1;
