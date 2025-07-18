@@ -55,7 +55,7 @@ a{
 
 
 button,
-.popup{
+.popupcontainer{
     background-color: #3882F6;
 }
 
@@ -67,6 +67,8 @@ button,
     border: none;
     color: white;
     max-width: 100px;
+    min-width: 100px;
+
 }
 
 .popupbutton{
@@ -75,6 +77,8 @@ button,
     cursor: pointer;                
     transition: background-color 0.2s ease;
     border-radius: 8px;
+    max-width: 100px;
+    min-width: 100px;
 }
 
 button::active,
@@ -132,6 +136,8 @@ button::active,
 .header{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 5px 150px 50px;
     gap: 50px;
 }
@@ -142,6 +148,8 @@ button::active,
     align-items: center;
     justify-content: space-between;
     height: 30px;
+    width: 70%;
+
 }
 
 .header-links{
@@ -155,10 +163,12 @@ button::active,
 .lower-header{
     display: flex;
     flex: 1;
+    width: 70%;
 
     justify-content: space-between;
     align-items: stretch;
     gap: 40px;
+    min-height: 250px;
 }
 
 .sidebar{
@@ -175,7 +185,6 @@ button::active,
     justify-content: center;
     align-items: center;
 
-
     padding: 40px;
 }
 
@@ -183,7 +192,6 @@ button::active,
     display: flex;
     flex-direction: column;
     flex: 1;
-    gap: 50px;
 }
 
 .contentheader{
@@ -198,6 +206,7 @@ button::active,
     flex: 1;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 25px;
 }
 
 .card{
@@ -217,10 +226,9 @@ button::active,
 .quote{
     display: flex;
     flex-direction: column;
-    flex: 1;
+    justify-content: center;
     align-items: center;
-    padding: 50px;
-
+    padding: 20px;
 }
 
 .quote-content{
@@ -229,20 +237,39 @@ button::active,
 }
 
 .quotetext{
-    flex: 1;
+    text-align: justify;
 }
 
+
 .writer{
-    width: 50%;
-    display: flex;
-    flex: 1;
-    align-self: flex-end;
     text-align: right;
+}
+
+.popup{
+    display: flex;
+    padding: 35px 75px;
+    align-items: center;
+    justify-content: center;
+}
+
+.popupcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    padding: 25px;
+    border-radius: 5px;
+    max-width: 60%;
 }
 
 .footer{
     display: flex;
     flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    max-height: 40px;
 }
+
 
 /*To continue from quotes writer alignment*/
