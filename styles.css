@@ -79,6 +79,7 @@ button,
     border-radius: 8px;
     max-width: 100px;
     min-width: 100px;
+    color: white;
 }
 
 button::active,
